@@ -6,14 +6,14 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com vários desafios, um dos principais é lidar com suas emoções e sentimentos. Qual o primeiro pensamento?",
+        enunciado: "Os animais alegram nossa vida, mas vários não tem um lar aconchegante. Você ja pensou em adotar?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto: "Sim!",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Isso é tranquilo!",
+                texto: "Não!",
                 afirmacao: "afirmação"
             }
         ]
@@ -71,6 +71,7 @@ const perguntas = [
         ]
     },
 ];
+Inteligência Emocional para crianças
 
 
 let atual = 0;
